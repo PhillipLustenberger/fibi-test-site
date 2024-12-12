@@ -1,0 +1,60 @@
+/* Styles für das Hauptbild und Text */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .heroImage {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+  
+  .heroText {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  .heroText h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .heroText p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Styles für die Galerie */
+  .gallery {
+    padding: 3rem;
+    background-color: #f9f9f9;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,30 @@
+/* Styling für das Menü */
+.header {
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navList li {
+    margin: 0 1rem;
+  }
+  
+  .navList a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .navList a:hover {
+    text-decoration: underline;
+  }
+  
